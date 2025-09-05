@@ -33,3 +33,12 @@ print("Median:", median_val)
 # Standard Deviation
 std_val = np.std(arr)
 print("Standard Deviation:", std_val)
+
+#check using numpay dot product for the manualy dot product
+import numpy as np
+
+v1 = [1, 2, 3]
+v2 = [4, 5, 6]
+
+np_result = np.dot(v1, v2)
+print("Numpy Dot Product", np_result)
